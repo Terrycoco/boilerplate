@@ -10,4 +10,5 @@ A starter project for React, Redux, Webpack
 	> cd  <YourProjectName>
 	> npm install
 	> npm start
+	> open a browser to localhost:8080
 ```
