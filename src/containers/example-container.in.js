@@ -18,7 +18,9 @@ class Example extends Component {
 
 function mapStateToProps(state) {
   //what's returned here is pass as prop to wired container object
-  somekey: state.somekey
+   return {
+     somekey: state.somekey
+   };
 }
 
 export default connect(mapStateToProps)(Example);
