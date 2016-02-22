@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import from '../actions.index';
+import { fetchPost, deletePost } from 'actions/index';
 
 class ExampleOut extends Component {
   constructor(props) {
@@ -17,10 +17,6 @@ class ExampleOut extends Component {
   }
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators(
-    {exampleProp: stateKey}  //usually same name and can use es6 syntax also
-    , dispatch);
-}
+
 //must be second arg
-export default connect(null, mapDispatchToProps)(ExampleOut);
+export default connect( null, { fetchPost, deletePost })(ExampleOut);
