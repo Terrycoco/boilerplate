@@ -1,9 +1,9 @@
 {
   "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Boilerplate for projects using React Redux and Webpack",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:terrycoco/Boilerplate.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
@@ -25,6 +25,7 @@
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
+    "react-router": "^2.0.0-rc5",
     "redux": "^3.0.4",
     "redux-promise": "^0.5.1"
   }

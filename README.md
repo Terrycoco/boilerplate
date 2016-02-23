@@ -1,6 +1,10 @@
 # Boilerplate
 
-A starter project for React, Redux, Webpack
+A starter project for React, Redux & Webpack
+
+###Also Includes###
+react-router
+Example Files
 
 ###Getting Started###
 

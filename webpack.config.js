@@ -14,7 +14,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-  historyApiFallback: true,
+    historyApiFallback: true, //needed for react-router to work
     contentBase: './',
     hot: true  //enable hot module plugin
   },
