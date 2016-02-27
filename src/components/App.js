@@ -9,6 +9,7 @@ export default class App extends Component {
     return  (
       <div>
        Hello World!
+       {this.props.children}
       </div>
     );
   }

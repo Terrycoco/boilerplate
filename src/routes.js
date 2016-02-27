@@ -3,5 +3,7 @@ import { Route, IndexRoute } from 'react-router';
 
 import App from 'components/App';
 
-<Route path="/" component={App}>
-</Route>
+export default (
+  <Route path="/" component={App}>
+  </Route>
+);

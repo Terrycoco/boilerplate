@@ -33,7 +33,9 @@ module.exports = {
     alias: {
       components: path.resolve( __dirname, 'src', 'components'),
       reducers: path.resolve( __dirname, 'src', 'reducers'),
-      actions: path.resolve( __dirname, 'src', 'actions')
+      actions: path.resolve( __dirname, 'src', 'actions'),
+      styles: path.resolve(__dirname,'src','styles'),
+      images: path.resolve(__dirname,'src','styles')
     },
     extensions: ['','.js', '.jsx', 'css']
   },
