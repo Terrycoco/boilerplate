@@ -5,10 +5,3 @@
 //     payload: props.whatever
 //   };
 // };
-
-
-export default const exampleAction = () => {
-  return {
-
-  };
-};
