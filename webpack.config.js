@@ -24,7 +24,13 @@ module.exports = {
     [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
-      loader: 'react-hot!babel'}
+      loader: 'react-hot!babel'
+    },
+    {
+      test: /\.(png|jpg|gif)$/,
+      loader: 'url?limit=25000'
+    }
+    }
     // },
     // { test: /\.css$/, loader: "style-loader!css-loader" }
   ]
@@ -35,7 +41,7 @@ module.exports = {
       reducers: path.resolve( __dirname, 'src', 'reducers'),
       actions: path.resolve( __dirname, 'src', 'actions'),
       styles: path.resolve(__dirname,'src','styles'),
-      images: path.resolve(__dirname,'src','styles')
+      images: path.resolve(__dirname,'src','images')
     },
     extensions: ['','.js', '.jsx', 'css']
   },
