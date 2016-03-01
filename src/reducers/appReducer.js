@@ -1,4 +1,4 @@
-import { SET_WINDOW_SIZE } from 'actions/index';
+import { SET_WINDOW_SIZE} from 'actions/index';
 
 const INITIAL_STATE = {
   windowSize: null
@@ -7,7 +7,7 @@ const INITIAL_STATE = {
 export default (state=INITIAL_STATE, action) => {
   switch (action.type) {
     case SET_WINDOW_SIZE: {
-      return { windowSize: action.payload };
+      return Object.assign({}, state, { windowSize: action.payload });
     }
     default:
       return state;
