@@ -30,7 +30,6 @@ module.exports = {
       test: /\.(png|jpg|gif)$/,
       loader: 'url?limit=25000'
     }
-    }
     // },
     // { test: /\.css$/, loader: "style-loader!css-loader" }
   ]
@@ -41,7 +40,8 @@ module.exports = {
       reducers: path.resolve( __dirname, 'src', 'reducers'),
       actions: path.resolve( __dirname, 'src', 'actions'),
       styles: path.resolve(__dirname,'src','styles'),
-      images: path.resolve(__dirname,'src','images')
+      images: path.resolve(__dirname,'src','images'),
+      pages: path.resolve(__dirname,'src','pages')
     },
     extensions: ['','.js', '.jsx', 'css']
   },

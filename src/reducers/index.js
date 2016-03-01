@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-// import ExampleReducer from 'reducers/exampleReducer';
+import appReducer from 'reducers/appReducer';
 
 
 const rootReducer = combineReducers({
-state: (state = {}) => state   //passthrough state - delete when have real reducer
- // stateSection: ExampleReducer
+// state: (state = {}) => state   //passthrough state - delete when have real reducer
+ app: appReducer
 });
 
 export default rootReducer;
