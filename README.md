@@ -3,11 +3,12 @@
 A starter project for React, Redux & Webpack
 
 ###Also Includes###
-react-router
-Example Files
-
+```
+*react-router
+*testing with mocha, chai, and sinon
+*Example Files
+```
 ###Getting Started###
-
 
 ```
 	> git clone git@github.com:terrycoco/boilerplate.git <YourProjectName>
